@@ -1,0 +1,19 @@
+{
+  "name": "string-graph",
+  "version": "0.0.1",
+  "description": "Output visual graphs to a string for logging and demos",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel lib -d dist",
+    "coverage": "jest --coverage",
+    "test": "jest"
+  },
+  "author": "Jared K Jones",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "jest": "^24.9.0"
+  }
+}
