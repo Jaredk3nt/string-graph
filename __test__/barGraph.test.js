@@ -38,7 +38,8 @@ describe("barGraph", () => {
   test('Given "yLabels" option', () => {
     expect(barGraph(testGraphData, { yLabels: true })).toEqual(givenYLabels);
   });
-
+  
+  // TODO: add test for uneven y axis label counts
   test('Given "yLabelsCount" option', () => {
     expect(barGraph(testGraphData, { yLabels: true, yLabelsCount: 3 })).toEqual(
       givenYLabels

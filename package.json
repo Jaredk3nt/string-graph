@@ -1,8 +1,8 @@
 {
   "name": "string-graph",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Output visual graphs to a string for logging and demos",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel lib -d dist",
     "coverage": "jest --coverage",
@@ -15,5 +15,9 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
     "jest": "^24.9.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaredk3nt/string-graph.git"
+  },
 }

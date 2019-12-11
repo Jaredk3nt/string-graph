@@ -9,7 +9,7 @@ String graph exports a `barGraph` function for generating bar graphs from an arr
 ### Example
 
 ```js
-const { barGraph } = require("string-graphs");
+const { barGraph } = require("string-graph");
 
 const graph = barGraph([5, 10, 15], {
   yLabels: true,
