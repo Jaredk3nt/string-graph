@@ -1,6 +1,6 @@
 {
   "name": "string-graph",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Output visual graphs to a string for logging and demos",
   "main": "dist/index.js",
   "scripts": {
