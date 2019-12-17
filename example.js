@@ -1,12 +1,18 @@
-const { barGraph } = require('./lib');
-const test = [
-  { label: 'morning', data: 6 },
-  { label: 'midday', data: 0 },
-  { label: 'early afternoon', data: 2 },
-  { label: 'afternoon', data: 10 },
-  { label: 'evening', data: 1 },
-];
+const { scatterPlot } = require("./lib");
 
 console.log(
-  barGraph(test, { xLabelWidth: 7, columnWidth: 6, yLabels: true })
-)
+  scatterPlot([
+    [1, 2],
+    [2, 3],
+    [3, 4],
+    [3, 5],
+    [4, 5],
+    [15, 5],
+    [6, 6],
+    [2, 8]
+  ], {
+    yLabels: true,
+    yLabelCount: 2,
+    guides: true
+  })
+);
