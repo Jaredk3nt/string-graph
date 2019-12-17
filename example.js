@@ -2,7 +2,7 @@ const { scatterPlot } = require("./lib");
 
 console.log(
   scatterPlot([
-    [1, 2],
+    [2, 2],
     [2, 3],
     [3, 4],
     [3, 5],
@@ -12,7 +12,9 @@ console.log(
     [2, 8]
   ], {
     yLabels: true,
-    yLabelCount: 2,
+    yLabelCount: 3,
+    xLabels: true,
+    xLabelCount: 3,
     guides: true
   })
 );
