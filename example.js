@@ -9,12 +9,14 @@ console.log(
     [4, 5],
     [15, 5],
     [6, 6],
-    [2, 8]
+    [2, 8],
+    [8, 4],
+    [6, 5]
   ], {
     yLabels: true,
     yLabelCount: 3,
     xLabels: true,
-    xLabelCount: 3,
-    guides: true
+    xLabelCount: 5,
+    guides: false
   })
 );
