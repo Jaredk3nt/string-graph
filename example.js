@@ -2,19 +2,14 @@ const { scatterPlot } = require("./lib");
 
 console.log(
   scatterPlot([
-    [2, 2],
-    [2, 3],
-    [3, 4],
-    [3, 5],
-    [4, 5],
-    [15, 5],
-    [6, 6],
-    [2, 8],
-    [8, 4],
-    [6, 5]
+    [200, 12],
+    [201, 15],
+    [201, 14],
+    [202, 14],
+    [208, 13]
   ], {
     yLabels: true,
-    yLabelCount: 3,
+    yLabelCount: 4,
     xLabels: true,
     xLabelCount: 5,
     guides: false
